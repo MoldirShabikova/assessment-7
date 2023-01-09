@@ -9,4 +9,7 @@ function longestWord(arr) {
     return word
 
 }
-console.log(longestWord(["hi", 'hello','babushka']))
+console.log(longestWord(["hi", 'hello', 'babushka']))
+
+ //Time Complexity: O(n)
+ //Space Complexity: O(1)

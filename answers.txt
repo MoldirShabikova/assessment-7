@@ -17,3 +17,10 @@ append 211.69 μs
 5. Results for the largeArray
 insert 15.934496 ms
 append 949.564 μs
+
+The doublerappend uses the .push method and will execute in the same time for the equation and is O(1)
+The doublerInsert uses .unshift method and will go through the entire array each time making it take longer to execute over time and volume and is O(n)
+ 
+ .push is O(1) and takes the same time to perform its task of pushing it will progress in a linear type fashion, meaning it will scale quicker overall even though it was slower at first
+ 
+whereas .unshift is O(n) meaning it will progressively take longer the larger the array is, even though it was faster at first.

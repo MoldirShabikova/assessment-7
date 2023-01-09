@@ -24,3 +24,7 @@ console.log(addToZero([1, 2, 3]));
 
 console.log(addToZero([1, 2, 3, -2]));
 // -> True
+
+
+//Time Complexity: O(n^2) 
+//Space Complexity: O(n)
